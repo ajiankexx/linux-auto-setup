@@ -8,3 +8,4 @@ echo "your wsl_name is $wsl_name"
 echo "export WSL_NAME=$wsl_name">>~/.bashrc
 export WSL_NAME=$wsl_name
 cat ./fish_config>>~/.config/fish/config.fish
+echo pcall(require, "mynvim")>>./config/nvim/init.lua
